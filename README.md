@@ -33,11 +33,16 @@ DELETE /posts/:PostId: Delete a blog post.
 
 ## **Technologies Used**
 Node.js
+
 Express.js
-cors (supoorted)
+
+cors (suported)
+
 mysql
+
 swagger
-lint
+
+lint/eslint
 
 ## **License**
 This project is licensed under the MIT License.
