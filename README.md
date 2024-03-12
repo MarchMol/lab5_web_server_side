@@ -13,7 +13,7 @@ Delete: Blog posts can be deleted using a DELETE request.
 _Installation_
 To use this API, follow these steps:
 
-_Clone the repository:_ git clone 
+_Clone the repository:_ git clone https://github.com/MarchMol/lab5_web_server_side.git
 _Install dependencies:_ npm install
 npm install express
 npm install cors
