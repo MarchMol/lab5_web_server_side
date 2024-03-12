@@ -1,7 +1,7 @@
-**Introduction**
+## **Introduction**
 This repository contains a simple API for managing blog posts. It allows users to perform diverse operations on blog posts stored in a local mysql database ran by a docker image.
 
-**Features**
+## **Features**
 Create: Users can create new blog posts by sending a POST request to the appropriate endpoint.
 Read: Existing blog posts can be retrieved using GET requests.
 Update: Users can update existing blog posts by sending a PUT request with the updated data.
@@ -22,7 +22,7 @@ docker run -d name_of_your_image
 
 _Start the server:_ npm start
 
-**Usage**
+## **Usage**
 Once the server is running, you can interact with the API using HTTP requests. Here are the available endpoints:
 
 GET /posts: Retrieve all blog posts.
@@ -31,7 +31,7 @@ POST /posts: Create a new blog post.
 PUT /posts/:PostId: Update an existing blog post.
 DELETE /posts/:PostId: Delete a blog post.
 
-**Technologies Used**
+## **Technologies Used**
 Node.js
 Express.js
 cors (supoorted)
@@ -39,8 +39,8 @@ mysql
 swagger
 lint
 
-**License**
+## **License**
 This project is licensed under the MIT License.
 
-**Acknowledgements**
+## **Acknowledgements**
 Thanks to the dependencies Express.js and others because if they werent free to use maybe this project wouldn't be here :)
