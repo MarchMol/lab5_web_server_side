@@ -11,7 +11,7 @@ app.use(cors())
 app.use(express.json())
 swagger(app)
 
-const port = 3000
+const port = 22398
 
 app.delete('/posts/:postId', cors(), async (req, res) => {
   try {
